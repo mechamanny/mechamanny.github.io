@@ -1,0 +1,66 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+a         { color: #00a; }
+a:hover   { color: #000; }
+a:visited { color: #a0a; }
+/* custom css starts here */
+h2 {
+  margin:.4em 0 .4em 0;
+}
+
+a {
+  padding-right: .3em;
+}
+
+.company {
+  font-weight: bold;
+  margin-left: 1em;
+}
+.resume {
+  width:80%;
+  margin: 1em auto;
+  font-family: monospace;
+}
+
+.header {
+text-align: center;
+}
+
+.content {
+  text-align: left;
+  margin:0 3em 0 5em;
+  line-height: 1.5em;
+}
+
+.inline-odd-list li {
+  list-style: none;
+}
+
+.inline-odd-list li:nth-child(odd) {
+  float: left;
+}
+
+.inline-odd-list li:nth-child(even) {
+  margin-left: 30%;
+}
+
+.inline-odd-list.right-justify {
+  text-align: right;
+  margin-right: 
+}
+
+.job-info {
+  margin-left:2em;
+}
+
+
+.email {
+  unicode-bidi:bidi-override;
+  direction:rtl;
+}
